@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_moon"
+                android:icon="@drawable/ic_moon"
+                android:title="Activar modo Nocturno"/>
+        <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_grafica"
+                android:title="Tus Niveles"/>
+        <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_clock"
+                android:title="Alarmas"/>
+        <item
+                android:id="@+id/nav_medi"
+                android:icon="@drawable/ic_medicine"
+                android:title="Medicamentos"/>
+
+        <item
+                android:id="@+id/info_al"
+                android:icon="@drawable/ic_apple"
+                android:title="Información Alimenticia"/>
+
+
+        <item
+                android:id="@+id/recordatorios"
+                android:icon="@drawable/ic_remember"
+                android:title="Recordatorios"/>
+
+
+        <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Otros"/>
+    </group>
+
+
+
+</menu>
